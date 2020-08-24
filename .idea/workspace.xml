@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd7c04c-ccb7-4436-b760-205adefbe658" name="Default Changelist" comment="" />
+    <list default="true" id="bcd7c04c-ccb7-4436-b760-205adefbe658" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Implementation/View/UIJavaFX/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implementation/View/UIJavaFX/MainFrame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gYTESsZXAdLd0oozyf2cYPn1yI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +28,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pezpo\IdeaProjects\CheapKeyFinder_\preview" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pezpo\IdeaProjects\CheapKeyFinder_" />
       <recent name="C:\Users\pezpo\IdeaProjects\CheapKeyFinder_\src\test\java" />
@@ -70,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598290413958</updated>
-      <workItem from="1598290416711" duration="502000" />
+      <workItem from="1598290416711" duration="1020000" />
     </task>
     <servers />
   </component>

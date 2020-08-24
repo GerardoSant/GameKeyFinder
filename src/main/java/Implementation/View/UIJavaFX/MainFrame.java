@@ -18,7 +18,7 @@ public class MainFrame extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        primaryStage.setTitle("CheapKeyFinder");
+        primaryStage.setTitle("GameKeyFinder");
         URL url = new File("src/main/java/Implementation/View/UIJavaFX/Login.fxml").toURI().toURL();
         FXMLLoader loader = new FXMLLoader(url);
         LoginController loginController = new LoginController(new Account("Paco","xd","email@email.com",14),
