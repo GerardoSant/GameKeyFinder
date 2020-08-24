@@ -8,6 +8,9 @@ that his desired game has been found with the link to purchase it.
 
 
 ## Installing/running
+
+Main class is located in the 'main' package. For email sending, you need to configure your email user and password. You can set them in the 'SMTPMailSender' class located in the 'Implementation' package.
+
 ## Built With
 
 * [Java](https://www.java.com) - Programming Language
