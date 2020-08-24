@@ -18,5 +18,7 @@ that his desired game has been found with the link to purchase it.
 
 ## Preview
 
-![alt-text](https://github.com/GerardoSant/Personal-Website/blob/master/preview.gif)
+![alt-text](https://github.com/GerardoSant/GameKeyFinder/blob/master/preview/preview1.PNG)
+
+![alt-text](https://github.com/GerardoSant/GameKeyFinder/blob/master/preview/preview2.PNG)
 
