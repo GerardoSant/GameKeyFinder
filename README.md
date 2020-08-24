@@ -6,6 +6,8 @@ specified by the user, the program will perform a scrap to find the  game in dif
 if it finds the game below the price specified by the user, then the user will receive an email being notified
 that his desired game has been found with the link to purchase it.
 
+
+## Installing/running
 ## Built With
 
 * [Java](https://www.java.com) - Programming Language
@@ -14,11 +16,16 @@ that his desired game has been found with the link to purchase it.
 * [JSoup](https://jsoup.org/) - API for fetching URLs and extracting and manipulating data
 * [JUnit](https://junit.org/junit5/) - Unit testing framework
 * [Mockito](https://site.mockito.org/) - Mock framework
+* [JavaMail](https://javaee.github.io/javamail/) - API for mail and messaging applications.
 * IFTTT architecture.
 
 ## Preview
 
+* UI preview
+
 ![alt-text](https://github.com/GerardoSant/GameKeyFinder/blob/master/preview/preview1.PNG)
+
+* Mail received
 
 ![alt-text](https://github.com/GerardoSant/GameKeyFinder/blob/master/preview/preview2.PNG)
 
