@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="135.0" prefWidth="240.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Text layoutX="38.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose an hour to be notified" />
+    <TextField fx:id="hourTextField" layoutX="38.0" layoutY="56.0" prefWidth="80.0" />
+    <Button layoutX="38.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#setScrapperHour" text="Save" />
+  </children>
+</AnchorPane>

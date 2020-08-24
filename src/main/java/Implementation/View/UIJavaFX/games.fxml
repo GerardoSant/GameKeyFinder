@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0">
+      <children>
+        <Text layoutX="63.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Games">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Text>
+        <Button fx:id="addButton" layoutX="502.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#addGame" text="Add Game" />
+        <Button fx:id="removeButton" layoutX="492.0" layoutY="144.0" mnemonicParsing="false" onMouseClicked="#RemoveGame" text="Remove Game" />
+        <Button fx:id="updateButton" layoutX="511.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#update" text="Update" />
+        <Button fx:id="notificationHourButton" layoutX="478.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#openScrapperHour" text="Notification Hour" />
+        <CheckBox fx:id="turnOffRuleCheckBox" layoutX="63.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#TurnOffPushed" text="Turn off notifications" />
+        <Button fx:id="editButton" layoutX="504.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#editGame" text="Edit Game" />
+      </children>
+    </AnchorPane>
+    <TableView fx:id="gamesField" layoutX="63.0" layoutY="74.0" prefHeight="248.0" prefWidth="393.0">
+      <columns>
+        <TableColumn prefWidth="150.0" text="Games" fx:id="gamesColumn" />
+        <TableColumn prefWidth="100.0" text="Desired Price" fx:id="priceComumn" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>

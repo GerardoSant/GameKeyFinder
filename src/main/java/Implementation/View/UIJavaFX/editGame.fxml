@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="200.0" prefWidth="347.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TextField fx:id="gameNameTextField" layoutX="39.0" layoutY="30.0" prefWidth="200.0" />
+    <Text layoutX="39.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Name" />
+    <Text layoutX="39.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desired Price" />
+    <TextField fx:id="desiredEditTextField" layoutX="39.0" layoutY="68.0" prefWidth="200.0" />
+    <Button layoutX="39.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#saveEdit" text="Save" />
+  </children>
+</AnchorPane>
